@@ -1,0 +1,21 @@
+current directory: /home/riddhi/Desktop/app/dashboard-creation/vendor/bundle/gems/puma-3.12.1/ext/puma_http11
+/usr/bin/ruby2.5 -r ./siteconf20190920-21608-fg2oq2.rb extconf.rb
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+creating Makefile
+
+current directory: /home/riddhi/Desktop/app/dashboard-creation/vendor/bundle/gems/puma-3.12.1/ext/puma_http11
+make "DESTDIR=" clean
+
+current directory: /home/riddhi/Desktop/app/dashboard-creation/vendor/bundle/gems/puma-3.12.1/ext/puma_http11
+make "DESTDIR="
+compiling http11_parser.c
+compiling io_buffer.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.so
+
+current directory: /home/riddhi/Desktop/app/dashboard-creation/vendor/bundle/gems/puma-3.12.1/ext/puma_http11
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20190920-21608-egc1s1/puma
